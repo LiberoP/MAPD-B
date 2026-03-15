@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-"mysql commands.txt"
+"*/mysql commands.txt"
 
 # C extensions
 *.so
