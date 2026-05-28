@@ -16,7 +16,7 @@ services:
     volumes:
       - $PWD:/mapd-workspace
     environment:
-      - DASK_WORKER_CORES=1
+      - DASK_WORKER_CORES=2
       - DASK_WORKER_MEMORY=512MB
       - DASK_WORKER_THREADS=1
       - DASK_SCHEDULER_HOST=dask-scheduler
